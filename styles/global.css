@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #fff;
+    --bg-search-color: #dadbf1;
+    --topbot-color: #000000;
+    --destaque-color: #4C5FD5;
+    --button-color: #191a1b;
+
+    --ff-sans: "Inter", sans-serif;
+    --fw-base: 400;
+    --fw-md: 500;
+    --fw-bold: 700;
+}
+
+html {
+    font-family: var(--ff-sans);
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+}
+
+input:hover,
+input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

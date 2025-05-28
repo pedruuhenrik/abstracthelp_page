@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--topbot-color);
+    width: 100%;
+    padding: 1rem 6rem;
+}
+
+.logo {
+    width: 7.875rem;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--bg-color);
+    font-family: var(--ff-sans);
+    font-size: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.divider{
+    border: 1px solid var(--bg-color);
+    background-color: var(--bg-color);
+    height: 2rem;
+    width: 1px;
+}
+
+.search-input{
+    width: 16rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 100%;
+    border: none;
+}
+
+.button-secondary {
+    background: var(--button-color);
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-bold);
+    font-size: 1rem;
+    color: var(--bg-color);
+    width: 12rem;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 0.5rem;
+    height: 100%;
+    border: 1px solid var(--bg-color);
+}
+
+.button-primary {
+    background: var(--destaque-color);
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-bold);
+    font-size: 1rem;
+    color: var(--bg-color);
+    width: 8rem;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+
+
+

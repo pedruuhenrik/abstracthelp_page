@@ -1,0 +1,49 @@
+.container-list img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+}
+
+.container-list{
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+}
+
+.texts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+
+h2 {
+    font-family: var(--ff-sans);
+    font-size: 1.125rem;
+    font-weight: var(--fw-bold);
+}
+
+p{
+    font-family: var(--ff-sans);
+    font-size: 0.875rem;
+    font-weight: var(--fw-base);
+}
+
+.container-list a{
+    font-family: var(--ff-sans);
+    color: var(--destaque-color);
+    font-size: 0.875rem;
+}
+
+.container-list a:hover{
+    text-decoration: underline;
+}
+
+.list1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin: 10rem auto;
+    width: 40rem;
+    justify-content: center;
+    margin-top: 10rem;
+}
